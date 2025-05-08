@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "AIzaSyBJOpd4d0lNfOXEiFu12zurePaeDBdthhw"; // (keep it secure later)
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "AIzaSyDkyF5-CRUw185dEnCqqHlYncll3IJbdIs"; // Updated API key
 
 export async function POST(request: Request) {
   let message = '';
